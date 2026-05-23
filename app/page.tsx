@@ -96,7 +96,7 @@ export default function Band263Website() {
       {/* Dumisani */}
       <div className="bg-zinc-950 rounded-3xl overflow-hidden border border-zinc-800 hover:scale-105 hover:shadow-yellow-500/20 hover:shadow-2xl transition duration-300">
         <img
-          src="/dumi.png"
+          src="/dumela.png"
           alt="Dumisani Manyange"
           className="w-full h-80 object-cover"
         />
