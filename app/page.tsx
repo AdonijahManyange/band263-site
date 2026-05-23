@@ -115,7 +115,7 @@ export default function Band263Website() {
       {/* Tendekai */}
       <div className="bg-zinc-950 rounded-3xl overflow-hidden border border-zinc-800 hover:scale-105 hover:shadow-yellow-500/20 hover:shadow-2xl transition duration-300">
         <img
-          src="/Tende.jpg"
+          src="/Screenshot 2026-05-22 at 11.25.41 PM.png"
           alt="Tendekai Mano"
           className="w-full h-80 object-cover"
         />
