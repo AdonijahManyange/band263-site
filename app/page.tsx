@@ -286,7 +286,9 @@ export default function Band263Website() {
                   </p>
 
                 </div>
-              ))
+              ))}
+          </div>
+        </div>
       </section>
 
       {/* Socials */}
