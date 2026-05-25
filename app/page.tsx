@@ -134,7 +134,7 @@ export default function Band263Website() {
       {/* Nigel */}
       <div className="bg-zinc-950 rounded-3xl overflow-hidden border border-zinc-800 hover:scale-105 hover:shadow-yellow-500/20 hover:shadow-2xl transition duration-300">
         <img
-          src="/tepaz.png"
+          src="/Tepaz22.jpeg"
           alt="Nigel Kutepa"
           className="w-full h-80 object-cover"
         />
