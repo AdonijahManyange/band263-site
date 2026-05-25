@@ -245,29 +245,48 @@ export default function Band263Website() {
 
           <div className="grid md:grid-cols-3 gap-8">
             {[
-              {
-                title: 'Concerts & Festivals',
-                desc: 'High-energy live performances for festivals, nightlife, and entertainment events.',
-              },
-              {
-                title: 'Weddings & Private Events',
-                desc: 'Elegant live music experiences tailored for unforgettable celebrations.',
-              },
-              {
-                title: 'Church & Community Events',
-                desc: 'Spirit-filled and uplifting performances for ministries and gatherings.',
-              },
-            ].map((item) => (
-              <div
-                key={item.title}
-                className="bg-black border border-zinc-800 rounded-3xl p-8 hover:border-yellow-400 transition"
-              >
-                <h3 className="text-2xl font-bold mb-4">{item.title}</h3>
-                <p className="text-gray-400 leading-7">{item.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
+                {
+                  title: 'Concerts & Festivals',
+                  desc: 'High-energy live performances for festivals, nightlife, and entertainment events.',
+                  video: '/clipped concerts &festivals1.mp4',
+                },
+                {
+                  title: 'Weddings & Private Events',
+                  desc: 'Elegant live music experiences tailored for unforgettable celebrations.',
+                  video: '/wedding Clipper website.mp4',
+                },
+                {
+                  title: 'Church & Community Events',
+                  desc: 'Spirit-filled and uplifting performances for ministries and gatherings.',
+                  video: '/Church &events clipped.mp4',
+                },
+              ].map((item) => (
+                <div
+                  key={item.title}
+                  className="bg-black border border-zinc-800 rounded-3xl p-8 hover:border-yellow-400 transition"
+                >
+
+                  <div className="overflow-hidden rounded-t-3xl -m-8 mb-6">
+                    <video
+                      src={item.video}
+                      autoPlay
+                      muted
+                      loop
+                      playsInline
+                      className="w-full h-48 object-cover hover:scale-105 transition duration-500"
+                    />
+                  </div>
+
+                  <h3 className="text-2xl font-bold mb-4">
+                    {item.title}
+                  </h3>
+
+                  <p className="text-gray-400 leading-7">
+                    {item.desc}
+                  </p>
+
+                </div>
+              ))
       </section>
 
       {/* Socials */}
