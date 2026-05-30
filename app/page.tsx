@@ -210,7 +210,7 @@ export default function Band263Website() {
       {/* Adonijah */}
       <div className="bg-zinc-950 rounded-3xl overflow-hidden border border-zinc-800 hover:scale-105 hover:shadow-yellow-500/20 hover:shadow-2xl transition duration-300">
         <img
-          src="/Ado.PNG"
+          src="/ado2.png"
           alt="Adonijah Manyange"
           className="w-full h-80 object-cover object-center"
         />
