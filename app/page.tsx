@@ -49,6 +49,41 @@ export default function Band263Website() {
         </div>
       </section>
 
+      <section className="py-24 px-6 bg-zinc-950">
+        <div className="max-w-5xl mx-auto text-center">
+
+          <p className="uppercase tracking-[0.3em] text-yellow-400 mb-4">
+            Upcoming Event
+          </p>
+
+          <h2 className="text-4xl md:text-5xl font-bold mb-12">
+            Taste & Groove Episode 14
+          </h2>
+
+          <div className="bg-black rounded-3xl overflow-hidden border border-zinc-800">
+
+            <img
+              src="/Taste N Groove14.png"
+              alt="Taste & Groove Episode 14"
+              className="w-full object-cover"
+            />
+
+            <div className="p-8">
+              <p className="text-xl font-semibold mb-3">
+                July 5, 2026 • Hoshi Ranch • McKinney, TX
+              </p>
+
+              <p className="text-gray-400">
+                The vibes you've come to know and love are returning to McKinney this summer.
+                Tickets & additional event information coming soon.
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
       {/* About */}
       <section className="py-24 px-6 max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
         <div>
