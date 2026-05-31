@@ -60,7 +60,7 @@ export default function Band263Website() {
             Taste & Groove Episode 14
           </h2>
 
-          <div className="bg-black rounded-3xl overflow-hidden border border-zinc-800">
+          <div className="bg-black rounded-3xl overflow-hidden border border-zinc-800 max-w-md mx-auto">
 
             <img
               src="/Taste N Groove14.png"
