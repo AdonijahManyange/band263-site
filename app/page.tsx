@@ -87,7 +87,9 @@ export default function Band263Website() {
                 Buy Tickets
               </a>
 
-              </div>
+            </div>
+
+          </div>
 
         </div>
       </section>
