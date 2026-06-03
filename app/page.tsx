@@ -77,7 +77,7 @@ export default function Band263Website() {
                 Join Band 263 and Bhovybez Ent for Taste & Groove Episode 14, a family-friendly day filled with live music, food, entertainment, and unforgettable vibes.
                 Tickets are now available. Secure your spot for an unforgettable day at Hoshi Ranch.
               </p>
-            </div>
+
               <a
                 href="https://www.eventbrite.com/e/taste-n-groove-ep14-family-funday-with-band-263-live-band-tickets-1990444691654"
                 target="_blank"
@@ -87,7 +87,7 @@ export default function Band263Website() {
                 Buy Tickets
               </a>
 
-          </div>
+              </div>
 
         </div>
       </section>
