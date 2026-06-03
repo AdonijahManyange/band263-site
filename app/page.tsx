@@ -82,7 +82,7 @@ export default function Band263Website() {
                 href="https://www.eventbrite.com/e/taste-n-groove-ep14-family-funday-with-band-263-live-band-tickets-1990444691654"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block mt-6 bg-yellow-400 text-black px-6 py-3 rounded-xl font-bold hover:scale-105 transition"
+                className="inline-block mt-6 bg-yellow-400 text-black px-6 py-2 rounded-xl font-bold hover:scale-105 transition"
               >
                 Buy Tickets
               </a>
