@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
     title: "The Band 263",
     description:
       "Dallas-based Zimbabwean live band bringing Urban Grooves classics and live energy to every stage.",
-    url: "https://theband263.com",
+    url: "https://www.theband263.com",
     siteName: "The Band 263",
     images: [
       {
@@ -48,7 +49,10 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
