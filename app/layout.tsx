@@ -18,9 +18,6 @@ export const metadata: Metadata = {
   title: "The Band 263",
   description:
     "Dallas-based Zimbabwean live band bringing Urban Grooves classics and live energy to every stage.",
-  icons: {
-    icon: "/band.png",
-  },
   openGraph: {
     title: "The Band 263",
     description:
