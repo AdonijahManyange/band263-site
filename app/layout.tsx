@@ -15,13 +15,34 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "The Band 263",
+  metadataBase: new URL("https://www.theband263.com"),
+
+  title: {
+    default: "The Band 263 | Zimbabwean Live Band in Texas",
+    template: "%s | The Band 263",
+  },
+
   description:
-    "Dallas-based Zimbabwean live band bringing Urban Grooves classics and live energy to every stage.",
+    "The Band 263 is a Zimbabwean live band based in Texas, bringing Urban Grooves classics and unforgettable live performances to weddings, festivals, churches, corporate events, and private celebrations.",
+
+  keywords: [
+    "The Band 263",
+    "Zimbabwean Band",
+    "Zimbabwean Live Band",
+    "Texas Live Band",
+    "Dallas Live Band",
+    "Afro Fusion Band",
+    "Urban Grooves",
+    "Wedding Band Texas",
+    "Corporate Event Band",
+    "Live Entertainment",
+    "Zimbabwean Music",
+  ],
+
   openGraph: {
-    title: "The Band 263",
+    title: "The Band 263 | Zimbabwean Live Band in Texas",
     description:
-      "Dallas-based Zimbabwean live band bringing Urban Grooves classics and live energy to every stage.",
+      "Zimbabwean live band based in Texas performing Urban Grooves, Afro Fusion, Gospel, and live entertainment for weddings, festivals, churches, and corporate events.",
     url: "https://www.theband263.com",
     siteName: "The Band 263",
     images: [
@@ -35,6 +56,91 @@ export const metadata: Metadata = {
     locale: "en_US",
     type: "website",
   },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "The Band 263",
+    description:
+      "Zimbabwean live band based in Texas performing unforgettable live music.",
+    images: ["/band.png"],
+  },
+
+  alternates: {
+    canonical: "https://www.theband263.com",
+  },
+};
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "MusicGroup",
+
+  name: "The Band 263",
+
+  url: "https://www.theband263.com",
+
+  logo: "https://www.theband263.com/BAND263%20NEW%20BLACK%20LOGO.png",
+
+  image: "https://www.theband263.com/band.png",
+
+  description:
+    "Zimbabwean live band based in Texas specializing in Urban Grooves, Afro Fusion, Gospel, weddings, festivals, churches, corporate events, and private celebrations.",
+
+  foundingDate: "2024",
+
+  genre: [
+    "Urban Grooves",
+    "Afro Fusion",
+    "Zimbabwean Music",
+    "Gospel",
+  ],
+
+  areaServed: {
+    "@type": "State",
+    name: "Texas",
+  },
+
+  sameAs: [
+    "https://www.instagram.com/theband263/",
+    "https://www.youtube.com/@theband263",
+  ],
+
+  member: [
+    {
+      "@type": "Person",
+      name: "Dumisani Manyange",
+      jobTitle: "Pianist",
+    },
+    {
+      "@type": "Person",
+      name: "Tendekai Mano",
+      jobTitle: "Bass Guitarist",
+    },
+    {
+      "@type": "Person",
+      name: "Nigel Kutepa",
+      jobTitle: "Lead Guitarist",
+    },
+    {
+      "@type": "Person",
+      name: "Simbarashe Dembedza",
+      jobTitle: "Lead Drummer",
+    },
+    {
+      "@type": "Person",
+      name: "Judah Nortey",
+      jobTitle: "Drummer",
+    },
+    {
+      "@type": "Person",
+      name: "MacDonald Charles",
+      jobTitle: "Audio Engineer",
+    },
+    {
+      "@type": "Person",
+      name: "Adonijah Manyange",
+      jobTitle: "Media Management",
+    },
+  ],
 };
 
 export default function RootLayout({
@@ -48,7 +154,15 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(structuredData),
+          }}
+        />
+
         {children}
+
         <Analytics />
         <SpeedInsights />
       </body>
