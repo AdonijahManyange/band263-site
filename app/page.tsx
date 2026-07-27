@@ -6,7 +6,7 @@ export default function Band263Website() {
         className="relative h-screen flex items-center justify-center text-center bg-cover bg-center"
         style={{
           backgroundImage:
-            "url('/New Hero page1.png')",
+            "url('/hero.png')",
         }}
       >
         <div className="absolute inset-0 bg-black/70"></div>
