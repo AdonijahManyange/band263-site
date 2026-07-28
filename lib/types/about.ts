@@ -4,6 +4,12 @@ export type MusicIcon =
   | "Globe"
   | "MicVocal";
 
+export interface Genre {
+  title: string;
+  icon: MusicIcon;
+  description: string;
+}
+
 export interface PerformanceEvent {
   title: string;
   icon: PerformanceIcon;

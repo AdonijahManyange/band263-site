@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 
-import AboutHero from "@/lib/content/about/AboutHero";
+import AboutHero from "@/components/about/AboutHero";
 import StorySection from "@/components/about/StorySection";
 import MissionSection from "@/components/about/MissionSection";
 import MusicSection from "@/components/about/MusicSection";
 import WhyChooseSection from "@/components/about/WhyChooseSection";
-import PerformanceSection from "@/components/about/PerformanceSection";
+import PerformanceSection from "@/components/about/PerfomanceSection";
 import AboutCTA from "@/components/about/AboutCTA";
 
 export const metadata: Metadata = {

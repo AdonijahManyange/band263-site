@@ -1,6 +1,7 @@
 import type {
   Feature,
   Genre,
+  MusicIcon,
   PerformanceEvent,
 } from "@/lib/types/about";
 
