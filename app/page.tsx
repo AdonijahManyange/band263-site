@@ -60,12 +60,12 @@ export default function Band263Website() {
             More Than A Band.
           </h2>
 
-          <p className="text-gray-300 text-lg leading-8 mb-6">
+          <p className="mt-4 text-gray-300 text-lg leading-8 mb-4">
             The Band 263 brings the heartbeat of Southern Africa to stages across Texas. Every performance blends live musicianship, energy, and authentic African rhythms to create unforgettable experiences for every audience.
           </p>
 
           <p className="text-gray-400 text-lg leading-8">
-            Based in the Dallas–Fort Worth area, we perform Zimbabwean music, South African favorites, Afro Fusion, and Gospel at weddings, festivals, corporate events, churches, private celebrations, and many other occasions.
+            Based in the Dallas–Fort Worth area, we perform Zimbabwean music, South African favorites, Afro Fusion, and Gospel for weddings, festivals, corporate events, churches, private celebrations, and many other occasions.
           </p>
         </div>
 
@@ -115,7 +115,7 @@ export default function Band263Website() {
       {/* Tendekai */}
       <div className="bg-zinc-950 rounded-3xl overflow-hidden border border-zinc-800 hover:scale-105 hover:shadow-yellow-500/20 hover:shadow-2xl transition duration-300">
         <img
-          src="/Screenshot 2026-05-22 at 11.25.41 PM.png"
+          src="/tende2.png"
           alt="Tendekai Mano"
           className="w-full h-80 object-cover"
         />
