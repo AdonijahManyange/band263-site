@@ -96,7 +96,7 @@ export default function Band263Website() {
       {/* Dumisani */}
       <div className="bg-zinc-950 rounded-3xl overflow-hidden border border-zinc-800 hover:scale-105 hover:shadow-yellow-500/20 hover:shadow-2xl transition duration-300">
         <img
-          src="/dumela.png"
+          src="/images/members/dumela.png"
           alt="Dumisani Manyange"
           className="w-full h-80 object-cover"
         />
@@ -115,7 +115,7 @@ export default function Band263Website() {
       {/* Tendekai */}
       <div className="bg-zinc-950 rounded-3xl overflow-hidden border border-zinc-800 hover:scale-105 hover:shadow-yellow-500/20 hover:shadow-2xl transition duration-300">
         <img
-          src="/tende2.png"
+          src="/images/members/tende2.png"
           alt="Tendekai Mano"
           className="w-full h-80 object-cover"
         />
@@ -134,7 +134,7 @@ export default function Band263Website() {
       {/* Nigel */}
       <div className="bg-zinc-950 rounded-3xl overflow-hidden border border-zinc-800 hover:scale-105 hover:shadow-yellow-500/20 hover:shadow-2xl transition duration-300">
         <img
-          src="/Tepaz22.jpeg"
+          src="/images/members/Tepaz22.jpeg"
           alt="Nigel Kutepa"
           className="w-full h-80 object-cover"
         />
@@ -153,7 +153,7 @@ export default function Band263Website() {
       {/* Simbarashe */}
       <div className="bg-zinc-950 rounded-3xl overflow-hidden border border-zinc-800 hover:scale-105 hover:shadow-yellow-500/20 hover:shadow-2xl transition duration-300">
         <img
-          src="/bond11.png"
+          src="/images/members/bond11.png"
           alt="Simbarashe Dembedza"
           className="w-full h-80 object-cover"
         />
@@ -172,8 +172,8 @@ export default function Band263Website() {
       {/* Judah */}
       <div className="bg-zinc-950 rounded-3xl overflow-hidden border border-zinc-800 hover:scale-105 hover:shadow-yellow-500/20 hover:shadow-2xl transition duration-300">
         <img
-          src="/Judah Nortey.jpg"
-          alt="Judah M."
+          src="/images/members/Judah Nortey.jpg"
+          alt="Judah Nortey."
           className="w-full h-80 object-cover object-center"
         />
 
@@ -191,7 +191,7 @@ export default function Band263Website() {
       {/* MacDonald */}
       <div className="bg-zinc-950 rounded-3xl overflow-hidden border border-zinc-800 hover:scale-105 hover:shadow-yellow-500/20 hover:shadow-2xl transition duration-300">
         <img
-          src="/Chandoz.png"
+          src="/images/members/Chandoz.png"
           alt="MacDonald Charles"
           className="w-full h-80 object-cover object-center"
         />
@@ -210,7 +210,7 @@ export default function Band263Website() {
       {/* Adonijah */}
       <div className="bg-zinc-950 rounded-3xl overflow-hidden border border-zinc-800 hover:scale-105 hover:shadow-yellow-500/20 hover:shadow-2xl transition duration-300">
         <img
-          src="/ado2.png"
+          src="/images/members/ado2.png"
           alt="Adonijah Manyange"
           className="w-full h-80 object-cover object-center"
         />
