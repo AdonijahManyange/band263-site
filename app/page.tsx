@@ -61,17 +61,17 @@ export default function Band263Website() {
           </h2>
 
           <p className="text-gray-300 text-lg leading-8 mb-6">
-            The Band 263 is a Dallas-based Zimbabwean live music group blending Urban Grooves, Afro Fusion, Gospel, and contemporary African sounds into unforgettable live performances.
+            The Band 263 brings the heartbeat of Southern Africa to stages across Texas. Every performance blends live musicianship, energy, and authentic African rhythms to create unforgettable experiences for every audience.
           </p>
 
           <p className="text-gray-400 text-lg leading-8">
-            From weddings and concerts to church events and festivals, our mission is to connect cultures through music, energy, and authentic live experiences.
+            Based in the Dallas–Fort Worth area, we perform Zimbabwean music, South African favorites, Afro Fusion, and Gospel at weddings, festivals, corporate events, churches, private celebrations, and many other occasions.
           </p>
         </div>
 
         <div>
           <img
-            src="/photo-1501386761578-eac5c94b800a.jpeg"
+            src="/images/about/band263-about.jpg"
             alt="Live performance"
             className="rounded-3xl shadow-2xl w-full object-cover h-[500px]"
           />
@@ -348,7 +348,7 @@ export default function Band263Website() {
           </p>
 
           <h2 className="text-4xl md:text-6xl font-bold mb-6">
-            Let’s Bring The Energy To Your Event
+            Let’s Bring Your Event To Life
           </h2>
 
           <p className="text-gray-400 text-lg leading-8 mb-10">

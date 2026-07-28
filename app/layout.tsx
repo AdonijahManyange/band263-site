@@ -91,7 +91,9 @@ const structuredData = {
     "Urban Grooves",
     "Afro Fusion",
     "Zimbabwean Music",
+    "South African Music",
     "Gospel",
+    "African Music",
   ],
 
   areaServed: {
