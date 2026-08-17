@@ -26,7 +26,8 @@ export default function Band263Website() {
           </h1>
 
           <p className="text-lg md:text-2xl text-gray-200 leading-relaxed max-w-3xl mx-auto mb-8">
-            Bringing Urban Grooves classics and live Zimbabwean energy to stages across Texas and beyond.
+            Bringing Urban Grooves classics and live Zimbabwean energy to
+            stages across Texas and beyond.
           </p>
 
           <div className="flex flex-wrap gap-4 justify-center">
@@ -61,11 +62,17 @@ export default function Band263Website() {
           </h2>
 
           <p className="mt-4 text-gray-300 text-lg leading-8 mb-4">
-            The Band 263 brings the heartbeat of Southern Africa to stages across Texas. Every performance blends live musicianship, energy, and authentic African rhythms to create unforgettable experiences for every audience.
+            The Band 263 brings the heartbeat of Southern Africa to stages
+            across Texas. Every performance blends live musicianship, energy,
+            and authentic African rhythms to create unforgettable experiences
+            for every audience.
           </p>
 
           <p className="text-gray-400 text-lg leading-8">
-            Based in the Dallas–Fort Worth area, we perform Zimbabwean music, South African favorites, Afro Fusion, and Gospel for weddings, festivals, corporate events, churches, private celebrations, and many other occasions.
+            Based in the Dallas–Fort Worth area, we perform Zimbabwean music,
+            South African favorites, Afro Fusion, and Gospel for weddings,
+            festivals, corporate events, churches, private celebrations, and
+            many other occasions.
           </p>
         </div>
 
@@ -78,157 +85,183 @@ export default function Band263Website() {
         </div>
       </section>
 
+      {/* Latest Show Highlight */}
+      <section className="py-24 px-6 bg-zinc-950">
+        <div className="max-w-6xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+              <p className="uppercase tracking-[0.3em] text-yellow-400 mb-4">
+                Latest Show
+              </p>
+
+              <h2 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
+                Taste &amp; Groove Episode 14
+              </h2>
+
+              <p className="text-gray-300 text-lg leading-8 mb-4">
+                A look back at the energy, music, and unforgettable moments
+                from our latest Taste &amp; Groove performance.
+              </p>
+
+              <p className="text-gray-400 leading-7">
+                Watch the highlights from The Band 263 live at Taste &amp;
+                Groove Episode 14.
+              </p>
+            </div>
+
+            <div className="flex justify-center">
+              <div className="w-full max-w-sm overflow-hidden rounded-3xl border border-zinc-800 bg-black shadow-2xl">
+                <video
+                  src="https://uk4i6xeczpfl3b6v.public.blob.vercel-storage.com/1080p%20T%26G%20Ep14%20Highlights.mp4"
+                  autoPlay
+                  muted
+                  loop
+                  controls
+                  playsInline
+                  preload="metadata"
+                  className="w-full aspect-[9/16] object-cover"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Meet The Band */}
       <section className="py-24 px-6 bg-black">
-  <div className="max-w-6xl mx-auto">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-16">
+            <p className="uppercase tracking-[0.3em] text-yellow-400 mb-4">
+              Meet The Band
+            </p>
 
-    <div className="text-center mb-16">
-      <p className="uppercase tracking-[0.3em] text-yellow-400 mb-4">
-        Meet The Band
-      </p>
+            <h2 className="text-4xl md:text-5xl font-bold">
+              The Faces Behind The Music
+            </h2>
+          </div>
 
-      <h2 className="text-4xl md:text-5xl font-bold">
-        The Faces Behind The Music
-      </h2>
-    </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+            {/* Dumisani */}
+            <div className="bg-zinc-950 rounded-3xl overflow-hidden border border-zinc-800 hover:scale-105 hover:shadow-yellow-500/20 hover:shadow-2xl transition duration-300">
+              <img
+                src="/images/members/dumela.png"
+                alt="Dumisani Manyange"
+                className="w-full h-80 object-cover"
+              />
 
-    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+              <div className="p-6">
+                <h3 className="text-2xl font-bold mb-2">
+                  Dumisani Manyange
+                </h3>
 
-      {/* Dumisani */}
-      <div className="bg-zinc-950 rounded-3xl overflow-hidden border border-zinc-800 hover:scale-105 hover:shadow-yellow-500/20 hover:shadow-2xl transition duration-300">
-        <img
-          src="/images/members/dumela.png"
-          alt="Dumisani Manyange"
-          className="w-full h-80 object-cover"
-        />
+                <p className="text-yellow-400">Piano</p>
+              </div>
+            </div>
 
-        <div className="p-6">
-          <h3 className="text-2xl font-bold mb-2">
-            Dumisani Manyange
-          </h3>
+            {/* Tendekai */}
+            <div className="bg-zinc-950 rounded-3xl overflow-hidden border border-zinc-800 hover:scale-105 hover:shadow-yellow-500/20 hover:shadow-2xl transition duration-300">
+              <img
+                src="/images/members/tende2.png"
+                alt="Tendekai Mano"
+                className="w-full h-80 object-cover"
+              />
 
-          <p className="text-yellow-400">
-            Piano
-          </p>
+              <div className="p-6">
+                <h3 className="text-2xl font-bold mb-2">
+                  Tendekai Mano
+                </h3>
+
+                <p className="text-yellow-400">Bass</p>
+              </div>
+            </div>
+
+            {/* Nigel */}
+            <div className="bg-zinc-950 rounded-3xl overflow-hidden border border-zinc-800 hover:scale-105 hover:shadow-yellow-500/20 hover:shadow-2xl transition duration-300">
+              <img
+                src="/images/members/Tepaz22.jpeg"
+                alt="Nigel Kutepa"
+                className="w-full h-80 object-cover"
+              />
+
+              <div className="p-6">
+                <h3 className="text-2xl font-bold mb-2">
+                  Nigel Kutepa
+                </h3>
+
+                <p className="text-yellow-400">Guitar</p>
+              </div>
+            </div>
+
+            {/* Simbarashe */}
+            <div className="bg-zinc-950 rounded-3xl overflow-hidden border border-zinc-800 hover:scale-105 hover:shadow-yellow-500/20 hover:shadow-2xl transition duration-300">
+              <img
+                src="/images/members/bond11.png"
+                alt="Simbarashe Dembedza"
+                className="w-full h-80 object-cover"
+              />
+
+              <div className="p-6">
+                <h3 className="text-2xl font-bold mb-2">
+                  Simbarashe Dembedza
+                </h3>
+
+                <p className="text-yellow-400">Lead Drummer</p>
+              </div>
+            </div>
+
+            {/* Judah */}
+            <div className="bg-zinc-950 rounded-3xl overflow-hidden border border-zinc-800 hover:scale-105 hover:shadow-yellow-500/20 hover:shadow-2xl transition duration-300">
+              <img
+                src="/images/members/Judah Nortey.jpg"
+                alt="Judah Nortey."
+                className="w-full h-80 object-cover object-center"
+              />
+
+              <div className="p-6">
+                <h3 className="text-2xl font-bold mb-2">
+                  Judah Nortey
+                </h3>
+
+                <p className="text-yellow-400">Drums</p>
+              </div>
+            </div>
+
+            {/* MacDonald */}
+            <div className="bg-zinc-950 rounded-3xl overflow-hidden border border-zinc-800 hover:scale-105 hover:shadow-yellow-500/20 hover:shadow-2xl transition duration-300">
+              <img
+                src="/images/members/Chandoz.png"
+                alt="MacDonald Charles"
+                className="w-full h-80 object-cover object-center"
+              />
+
+              <div className="p-6">
+                <h3 className="text-2xl font-bold mb-2">
+                  MacDonald Charles
+                </h3>
+
+                <p className="text-yellow-400">Audio Engineer</p>
+              </div>
+            </div>
+
+            {/* Adonijah */}
+            <div className="bg-zinc-950 rounded-3xl overflow-hidden border border-zinc-800 hover:scale-105 hover:shadow-yellow-500/20 hover:shadow-2xl transition duration-300">
+              <img
+                src="/images/members/ado2.png"
+                alt="Adonijah Manyange"
+                className="w-full h-80 object-cover object-center"
+              />
+
+              <div className="p-6">
+                <h3 className="text-2xl font-bold mb-2">
+                  Adonijah Manyange
+                </h3>
+
+                <p className="text-yellow-400">Media Management</p>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-
-      {/* Tendekai */}
-      <div className="bg-zinc-950 rounded-3xl overflow-hidden border border-zinc-800 hover:scale-105 hover:shadow-yellow-500/20 hover:shadow-2xl transition duration-300">
-        <img
-          src="/images/members/tende2.png"
-          alt="Tendekai Mano"
-          className="w-full h-80 object-cover"
-        />
-
-        <div className="p-6">
-          <h3 className="text-2xl font-bold mb-2">
-            Tendekai Mano
-          </h3>
-
-          <p className="text-yellow-400">
-            Bass
-          </p>
-        </div>
-      </div>
-
-      {/* Nigel */}
-      <div className="bg-zinc-950 rounded-3xl overflow-hidden border border-zinc-800 hover:scale-105 hover:shadow-yellow-500/20 hover:shadow-2xl transition duration-300">
-        <img
-          src="/images/members/Tepaz22.jpeg"
-          alt="Nigel Kutepa"
-          className="w-full h-80 object-cover"
-        />
-
-        <div className="p-6">
-          <h3 className="text-2xl font-bold mb-2">
-            Nigel Kutepa
-          </h3>
-
-          <p className="text-yellow-400">
-            Guitar
-          </p>
-        </div>
-      </div>
-
-      {/* Simbarashe */}
-      <div className="bg-zinc-950 rounded-3xl overflow-hidden border border-zinc-800 hover:scale-105 hover:shadow-yellow-500/20 hover:shadow-2xl transition duration-300">
-        <img
-          src="/images/members/bond11.png"
-          alt="Simbarashe Dembedza"
-          className="w-full h-80 object-cover"
-        />
-
-        <div className="p-6">
-          <h3 className="text-2xl font-bold mb-2">
-            Simbarashe Dembedza
-          </h3>
-
-          <p className="text-yellow-400">
-            Lead Drummer
-          </p>
-        </div>
-      </div>
-
-      {/* Judah */}
-      <div className="bg-zinc-950 rounded-3xl overflow-hidden border border-zinc-800 hover:scale-105 hover:shadow-yellow-500/20 hover:shadow-2xl transition duration-300">
-        <img
-          src="/images/members/Judah Nortey.jpg"
-          alt="Judah Nortey."
-          className="w-full h-80 object-cover object-center"
-        />
-
-        <div className="p-6">
-          <h3 className="text-2xl font-bold mb-2">
-            Judah Nortey
-          </h3>
-
-          <p className="text-yellow-400">
-            Drums
-          </p>
-        </div>
-      </div>
-
-      {/* MacDonald */}
-      <div className="bg-zinc-950 rounded-3xl overflow-hidden border border-zinc-800 hover:scale-105 hover:shadow-yellow-500/20 hover:shadow-2xl transition duration-300">
-        <img
-          src="/images/members/Chandoz.png"
-          alt="MacDonald Charles"
-          className="w-full h-80 object-cover object-center"
-        />
-
-        <div className="p-6">
-          <h3 className="text-2xl font-bold mb-2">
-            MacDonald Charles
-          </h3>
-
-          <p className="text-yellow-400">
-            Audio Engineer
-          </p>
-        </div>
-      </div>
-
-      {/* Adonijah */}
-      <div className="bg-zinc-950 rounded-3xl overflow-hidden border border-zinc-800 hover:scale-105 hover:shadow-yellow-500/20 hover:shadow-2xl transition duration-300">
-        <img
-          src="/images/members/ado2.png"
-          alt="Adonijah Manyange"
-          className="w-full h-80 object-cover object-center"
-        />
-
-        <div className="p-6">
-          <h3 className="text-2xl font-bold mb-2">
-            Adonijah Manyange
-          </h3>
-
-          <p className="text-yellow-400">
-            Media Management
-          </p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
+      </section>
 
       {/* Services */}
       <section className="py-24 px-6 bg-zinc-950">
@@ -245,48 +278,42 @@ export default function Band263Website() {
 
           <div className="grid md:grid-cols-3 gap-8">
             {[
-                {
-                  title: 'Concerts & Festivals',
-                  desc: 'High-energy live performances for festivals, nightlife, and entertainment events.',
-                  video: '/clipped concerts &festivals1.mp4',
-                },
-                {
-                  title: 'Weddings & Private Events',
-                  desc: 'Elegant live music experiences tailored for unforgettable celebrations.',
-                  video: '/wedding Clipper website.mp4',
-                },
-                {
-                  title: 'Church & Community Events',
-                  desc: 'Spirit-filled and uplifting performances for ministries and gatherings.',
-                  video: '/Church &events clipped.mp4',
-                },
-              ].map((item) => (
-                <div
-                  key={item.title}
-                  className="bg-black border border-zinc-800 rounded-3xl p-8 hover:border-yellow-400 transition"
-                >
-
-                  <div className="overflow-hidden rounded-t-3xl -m-8 mb-6">
-                    <video
-                      src={item.video}
-                      autoPlay
-                      muted
-                      loop
-                      playsInline
-                      className="w-full h-48 object-cover hover:scale-105 transition duration-500"
-                    />
-                  </div>
-
-                  <h3 className="text-2xl font-bold mb-4">
-                    {item.title}
-                  </h3>
-
-                  <p className="text-gray-400 leading-7">
-                    {item.desc}
-                  </p>
-
+              {
+                title: "Concerts & Festivals",
+                desc: "High-energy live performances for festivals, nightlife, and entertainment events.",
+                video: "/clipped concerts &festivals1.mp4",
+              },
+              {
+                title: "Weddings & Private Events",
+                desc: "Elegant live music experiences tailored for unforgettable celebrations.",
+                video: "/wedding Clipper website.mp4",
+              },
+              {
+                title: "Church & Community Events",
+                desc: "Spirit-filled and uplifting performances for ministries and gatherings.",
+                video: "/Church &events clipped.mp4",
+              },
+            ].map((item) => (
+              <div
+                key={item.title}
+                className="bg-black border border-zinc-800 rounded-3xl p-8 hover:border-yellow-400 transition"
+              >
+                <div className="overflow-hidden rounded-t-3xl -m-8 mb-6">
+                  <video
+                    src={item.video}
+                    autoPlay
+                    muted
+                    loop
+                    playsInline
+                    className="w-full h-48 object-cover hover:scale-105 transition duration-500"
+                  />
                 </div>
-              ))}
+
+                <h3 className="text-2xl font-bold mb-4">{item.title}</h3>
+
+                <p className="text-gray-400 leading-7">{item.desc}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -352,7 +379,8 @@ export default function Band263Website() {
           </h2>
 
           <p className="text-gray-400 text-lg leading-8 mb-10">
-            Available for concerts, festivals, weddings, church events, and private bookings across the United States.
+            Available for concerts, festivals, weddings, church events, and
+            private bookings across the United States.
           </p>
 
           <a
