@@ -24,3 +24,41 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Smooth, continuous movement for the Band 263 member cards */
+@keyframes band-marquee-left {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.band-marquee {
+  width: 100%;
+  overflow: hidden;
+}
+
+.band-marquee-track {
+  display: flex;
+  width: max-content;
+  animation: band-marquee-left 65s linear infinite;
+  will-change: transform;
+}
+
+/* Pause only when hovering on devices that support hover */
+@media (hover: hover) and (pointer: fine) {
+  .band-marquee:hover .band-marquee-track {
+    animation-play-state: paused;
+  }
+}
+
+/* Respect reduced-motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  .band-marquee-track {
+    animation: none;
+    transform: translateX(0);
+  }
+}

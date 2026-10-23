@@ -5,9 +5,9 @@ import {
   Star,
 } from "lucide-react";
 
-import Card from "@/components/shared/Card";
-import Section from "@/components/shared/Section";
-import SectionHeader from "@/components/shared/SectionHeader";
+import Card from "@/app/components/shared/Card";
+import Section from "@/app/components/shared/Section";
+import SectionHeader from "@/app/components/shared/SectionHeader";
 
 import { aboutContent } from "@/lib/content/about";
 
